@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cloths go</title>
+    
+    <style>
+        .image-container {
+            position: relative;
+            width: 300px; /* Adjust as needed */
+            height: 200px; /* Adjust as needed */
+        }
+
+        /* Circular frame */
+        .circle-frame {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px; /* Adjust as needed */
+            height: 100px; /* Adjust as needed */
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+            overflow: hidden;
+        }
+
+        /* Image styling */
+        .circle-frame img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Reset default margin and padding */
+        body, h1, h2, h3, button {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set background image */
+        body {
+            background-image: url ("oip.jpg"); /* Replace with actual image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: rgb(222, 221, 221);
+            font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        /* Header styles */
+        .header {
+            color: deepskyblue;
+            font-size: 5mm;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Main content styles */
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: blue;
+            font-weight: 900;
+            font-size: 10mm;
+        }
+
+        h2 {
+            color: rgb(55, 0, 255);
+            font-size: 20mm;
+            margin-bottom: 20px;
+        }
+
+        mark {
+            color: mediumturquoise;
+            font-size: 40mm;
+        }
+
+        /* Button styles */
+        button {
+            background-color: rgb(47, 0, 255);
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+            transition: background-color 0.3s ease;
+            color: white;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: rgb(255, 0, 0);
+        }
+
+        button:focus {
+            background-color: red;
+        }
+
+        /* Cookie consent popup */
+        .cookie-popup {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
+    <div class="content">
+        <div class="image-container">
+            <div class="circle-frame">
+                <img src="oip.jpg" alt="Your Image">
+            </div>
+        </div>
+        <h1>Welcome</h1>
+        <h3>to</h3>
+        <h2><mark>clothsgo©</mark></h2>
+        <button onclick="window.location.href = 'main.html';">Enter →</button>
+        
+    </div>
+
+    <!-- Cookie consent popup -->
+    <div class="cookie-popup">
+        This website uses cookies to enhance your experience. By continuing to browse, you agree to our <a href="privacy-policy.html">Cookie Policy</a>.
+    </div>
+</body>
+</html>
